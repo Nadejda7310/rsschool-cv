@@ -1,8 +1,26 @@
-body{
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(219,177,209,1) 27%, rgba(148,187,233,1) 100%);
+body {
+    font-family: sans-serif;
+    margin: 40px 0 40px 0;
 }
 
-h1{
-    color: #ffffff;
+.container {
+    max-width: 1060px;
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.header__wrap {
+    display: flex;
+    gap: 30px;
+}
+
+.header__img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.header__title {
+    margin: 0;
 }
