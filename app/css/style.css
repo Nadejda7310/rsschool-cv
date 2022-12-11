@@ -74,10 +74,13 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    max-width: 600px;
+    width: 100%;
 }
 
 .personal__item{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
 
