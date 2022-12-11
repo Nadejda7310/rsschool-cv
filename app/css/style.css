@@ -190,3 +190,29 @@ body {
 }
 
 /* EDUCATION end */
+
+/* SKILLS start */
+.skills__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    max-width: 500px;
+}
+
+.skills__item{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
