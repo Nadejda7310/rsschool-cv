@@ -141,3 +141,52 @@ body {
     margin-bottom: 60px;
 }
 /* WORK end */
+
+/* EDUCATION start */
+
+.education__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.education-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.education-item__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education-item__name{
+    margin: 0;
+    padding: 0;
+}
+
+.education-item__dates{
+    font-size: 14px;
+}
+
+.education-item__place{
+    font-style: italic;
+}
+
+.education{
+    margin-bottom: 60px;
+}
+
+/* EDUCATION end */
