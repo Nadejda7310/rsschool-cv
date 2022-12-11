@@ -85,7 +85,59 @@ body {
     font-weight: bold;
 }
 
-
-
+.personal{
+    margin-bottom: 60px;
+}
 
 /* PERSONAL end */
+
+/* WORK start */
+
+.work__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.work__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.work-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.work-item__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-item__position{
+    margin: 0;
+}
+
+.work-item__description{
+    margin: 0;
+}
+
+.work-item__dates{
+    font-size: 14px;
+}
+
+.work-item__place{
+    font-style: italic;
+}
+
+.work{
+    margin-bottom: 60px;
+}
+/* WORK end */
