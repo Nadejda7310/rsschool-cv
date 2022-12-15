@@ -88,6 +88,11 @@ body {
     font-weight: bold;
 }
 
+.personal__item-value--link {
+    color: darkgrey;
+    text-decoration: none;
+}
+
 .personal{
     margin-bottom: 60px;
 }
