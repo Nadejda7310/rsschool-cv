@@ -225,6 +225,28 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.skills{
+    margin-bottom: 60px;  
+}
+
+/* SKILLS end */
+
+
+/* CODE start */
+
+.code__item{
+    di
+}
+
+.code-block__img{
+    height: 30px;
+    width: 30px;
+}
+
+/* CODE end */
+
+/* NAV start */
+
 .nav__list{
     display: flex;
     justify-content: space-between;
@@ -248,3 +270,5 @@ text-decoration: underline;
 .nav{
     margin-bottom: 60px; 
 }
+
+/* NAV end */
