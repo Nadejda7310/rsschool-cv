@@ -91,7 +91,14 @@ body {
 .personal__item-value--link {
     color: darkgrey;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    
 }
+
+.personal__item-value--link:hover{
+    color:black;
+    text-decoration: underline;
+    }
 
 .personal{
     margin-bottom: 60px;
@@ -234,13 +241,13 @@ body {
 
 /* CODE start */
 
-.code__item{
-    di
-}
-
 .code-block__img{
     height: 30px;
     width: 30px;
+}
+
+.code{
+    margin-bottom: 60px;  
 }
 
 /* CODE end */
@@ -272,3 +279,42 @@ text-decoration: underline;
 }
 
 /* NAV end */
+
+/* FOOTER start */
+
+
+.app-information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.app-information__year-github{
+    display: flex;
+    flex-direction: column;
+}
+.github-icon{
+    height: 60px;
+    width: 60px;
+}
+
+.rss-icon{
+    height: 120px;
+    width: 120px;
+}
+
+.year{
+    font-size: 17px;
+}
+
+.author{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    background: #F3F1F1;
+    border-radius: 5px;
+}
