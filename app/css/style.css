@@ -1,0 +1,323 @@
+body {
+    font-family: sans-serif;
+    margin: 40px 0 40px 0;
+}
+
+.container {
+    max-width: 1060px;
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+/* HEADER start */
+
+.header__wrap {
+    display: flex;
+    gap: 30px;
+}
+
+.header__img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.header__title {
+    margin: 0;
+}
+
+.header {
+    margin-bottom: 60px;
+}
+
+/* HEADER end */
+
+/* TITLES-BLOCK start */
+
+.titles-block {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+    background-color: #F3F1F1;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.titles-block__title {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.titles-block__img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+/* TITLES-BLOCK end */
+
+/* PERSONAL start */
+
+.personal__wrap {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.personal__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 600px;
+    width: 100%;
+}
+
+.personal__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.personal__item-value {
+    font-weight: bold;
+}
+
+.personal__item-value--link {
+    color: darkgrey;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.personal__item-value--link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.personal {
+    margin-bottom: 60px;
+}
+
+/* PERSONAL end */
+
+/* WORK start */
+
+.work__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.work__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.work-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.work-item__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-item__position {
+    margin: 0;
+}
+
+.work-item__description {
+    margin: 0;
+}
+
+.work-item__dates {
+    font-size: 14px;
+}
+
+.work-item__place {
+    font-style: italic;
+}
+
+.work {
+    margin-bottom: 60px;
+}
+
+/* WORK end */
+
+/* EDUCATION start */
+
+.education__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.education-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.education-item__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education-item__name {
+    margin: 0;
+    padding: 0;
+}
+
+.education-item__dates {
+    font-size: 14px;
+}
+
+.education-item__place {
+    font-style: italic;
+}
+
+.education {
+    margin-bottom: 60px;
+}
+
+/* EDUCATION end */
+
+/* SKILLS start */
+.skills__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    max-width: 500px;
+}
+
+.skills__item {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills {
+    margin-bottom: 60px;
+}
+
+/* SKILLS end */
+
+
+/* CODE start */
+
+.code-block__img {
+    height: 30px;
+    width: 30px;
+}
+
+.code {
+    margin-bottom: 60px;
+}
+
+/* CODE end */
+
+/* NAV start */
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.nav__list-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: darkgray;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__list-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.nav {
+    margin-bottom: 60px;
+}
+
+/* NAV end */
+
+/* FOOTER start */
+
+
+.app-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.app-information__year-github {
+    display: flex;
+    flex-direction: column;
+}
+
+.github-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.rss-icon {
+    height: 120px;
+    width: 120px;
+}
+
+.year {
+    font-size: 17px;
+}
+
+.author {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background: #F3F1F1;
+    border-radius: 5px;
+}
