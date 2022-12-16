@@ -60,7 +60,7 @@ body {
 
 /* PERSONAL start */
 
-.personal__wrap{
+.personal__wrap {
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -78,7 +78,7 @@ body {
     width: 100%;
 }
 
-.personal__item{
+.personal__item {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
@@ -92,15 +92,15 @@ body {
     color: darkgrey;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
-    
+
 }
 
-.personal__item-value--link:hover{
-    color:black;
+.personal__item-value--link:hover {
+    color: black;
     text-decoration: underline;
-    }
+}
 
-.personal{
+.personal {
     margin-bottom: 60px;
 }
 
@@ -108,13 +108,13 @@ body {
 
 /* WORK start */
 
-.work__wrap{
+.work__wrap {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.work__list{
+.work__list {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -124,48 +124,49 @@ body {
     margin: 0;
 }
 
-.work-item{
+.work-item {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.work-item__header{
+.work-item__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.work-item__position{
+.work-item__position {
     margin: 0;
 }
 
-.work-item__description{
+.work-item__description {
     margin: 0;
 }
 
-.work-item__dates{
+.work-item__dates {
     font-size: 14px;
 }
 
-.work-item__place{
+.work-item__place {
     font-style: italic;
 }
 
-.work{
+.work {
     margin-bottom: 60px;
 }
+
 /* WORK end */
 
 /* EDUCATION start */
 
-.education__wrap{
+.education__wrap {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.education__list{
+.education__list {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -175,45 +176,45 @@ body {
     padding: 0;
 }
 
-.education-item{
+.education-item {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.education-item__header{
+.education-item__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.education-item__name{
+.education-item__name {
     margin: 0;
     padding: 0;
 }
 
-.education-item__dates{
+.education-item__dates {
     font-size: 14px;
 }
 
-.education-item__place{
+.education-item__place {
     font-style: italic;
 }
 
-.education{
+.education {
     margin-bottom: 60px;
 }
 
 /* EDUCATION end */
 
 /* SKILLS start */
-.skills__wrap{
+.skills__wrap {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.skills__list{
+.skills__list {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -226,14 +227,14 @@ body {
     max-width: 500px;
 }
 
-.skills__item{
+.skills__item {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr;
 }
 
-.skills{
-    margin-bottom: 60px;  
+.skills {
+    margin-bottom: 60px;
 }
 
 /* SKILLS end */
@@ -241,41 +242,42 @@ body {
 
 /* CODE start */
 
-.code-block__img{
+.code-block__img {
     height: 30px;
     width: 30px;
 }
 
-.code{
-    margin-bottom: 60px;  
+.code {
+    margin-bottom: 60px;
 }
 
 /* CODE end */
 
 /* NAV start */
 
-.nav__list{
+.nav__list {
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding: 0;
     list-style: none;
-    
+
 }
-.nav__list-link{
+
+.nav__list-link {
     text-decoration: none;
     font-size: 20px;
-    color:darkgray;
+    color: darkgray;
     transition: all 0.5s ease-in-out;
 }
 
-.nav__list-link:hover{
-color:black;
-text-decoration: underline;
+.nav__list-link:hover {
+    color: black;
+    text-decoration: underline;
 }
 
-.nav{
-    margin-bottom: 60px; 
+.nav {
+    margin-bottom: 60px;
 }
 
 /* NAV end */
@@ -283,38 +285,39 @@ text-decoration: underline;
 /* FOOTER start */
 
 
-.app-information{
+.app-information {
     display: flex;
     justify-content: space-between;
     align-items: center
 }
 
-.app-information__year-github{
+.app-information__year-github {
     display: flex;
     flex-direction: column;
 }
-.github-icon{
+
+.github-icon {
     height: 60px;
     width: 60px;
 }
 
-.rss-icon{
+.rss-icon {
     height: 120px;
     width: 120px;
 }
 
-.year{
+.year {
     font-size: 17px;
 }
 
-.author{
+.author {
     text-decoration: none;
-    color:black;
+    color: black;
     display: flex;
     align-items: center;
 }
 
-.footer{
+.footer {
     background: #F3F1F1;
     border-radius: 5px;
 }
